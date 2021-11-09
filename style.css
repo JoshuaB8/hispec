@@ -1,0 +1,805 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Simply Construction HTML Template.
+  Template URI: #
+  Description: Simply Construction is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: DevItems
+  Version: 1.0
+
+
+-----------------------------------------------------------------------------------
+  
+  CSS INDEX
+  ===================
+
+  01. Google fonts
+  02. Scroll To Top
+  03. About Area
+  04. Service Area
+  05. Offer Area
+  06. Project Area
+  07. Call to Action Area
+  08. Team Area
+  09. Testimonial Area
+  10. Blog Area
+  11. Brand Area
+  12. Newsletter Area
+  13. Counterup Area
+  14. Google Map Area
+  15. Bradcaump Area
+  16. Our Mission Area
+  17. Project Area
+  18. Blog Details Area
+  19. Single Service Area
+  20. Single Project Area
+  21. Contact Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  1. Google fonts
+/*----------------------------------------*/
+
+/*
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+
+*/
+
+
+/*---------------------------------------
+  02. Scroll To Top
+----------------------------------------*/
+ #scrollUp {
+    border-radius: 2px;
+    bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-size: 28px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+    z-index: 200;
+    bottom: 15px;
+}
+#scrollUp:hover {
+}
+
+@-webkit-keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+@-moz-keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+@keyframes scroll-ani-to-top {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: 50%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 75%;
+  }
+}
+#scrollUp:hover i {
+    animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
+    height: 100%;
+    left: 0;
+    margin-bottom: -25px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#scrollUp i {
+    color: #fff;
+}
+ #scrollUp {
+    background: #fcc236 none repeat scroll 0 0;
+}
+ 
+
+/*---------------------------------------
+  End Scroll To Top
+----------------------------------------*/
+/*---------------------------------------
+  03. About Area
+----------------------------------------*/ 
+
+.about {
+    margin-left: -15px;
+    margin-right: -15px;
+    transition: all 0.5s ease 0s;
+}
+.about__inner h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.about__inner h2:hover a{
+    color: #000;
+}
+.about__inner p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.about__btn a {
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about__btn a:hover{
+    color: #000;
+}
+.about__icon {
+    position: relative;
+    text-align: right;
+    top: -11px;
+}
+.about__btn {
+    margin-top: 10px;
+}
+.about {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+}
+.about__inner.about__hober__info {
+    background: #fcc236 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(0);
+    transition: all 0.5s ease 0s;
+}
+.about__inner.about__hober__info.active {
+    transform: scaleY(1);
+}
+
+.about__inner {
+  background: #1f2d30 none repeat scroll 0 0;
+  padding: 60px 26px 22px;
+}
+.about:hover .about__inner.about__hober__info {
+    transform: scaleY(1);
+}
+.about__inner.about__hober__info h2 {
+    padding-top: 20px;
+}
+.about__inner.about__hober__info .about__icon {
+    top: 31px;
+}
+.about__icon img {
+    max-height: 39px;
+}
+
+/*-----------------------
+About 2
+--------------------------*/
+
+.about--2 .about__inner {
+    background: #fafafa none repeat scroll 0 0;
+}
+.about--2 .about__inner h2 {
+    color: #1f2d30;
+}
+.about--2 .about__inner p {
+    color: #606060;
+}
+.about--2 .about__btn a {
+    color: #1f2d30;
+}
+.about--2 .about__inner.about__hober__info {
+    background: #fcc236 none repeat scroll 0 0;
+}
+.about--2 .about__inner.about__hober__info h2 {
+    color: #fff;
+}
+.about--2 .about__inner.about__hober__info p {
+    color: #fff;
+}
+.about--2 .about__inner.about__hober__info .about__btn a {
+    color: #fff;
+}
+
+.text__pos {
+    position: relative;
+}
+.text__shape {
+    left: 128px;
+    position: absolute;
+    top: 50%;
+}
+.text__shape h2 {
+    color: #f7f7f7;
+    font-family: Josefin Sans;
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translateY(50%)  translateX(0);
+}
+
+/*---------------------------------------
+  06. Project Area
+----------------------------------------*/
+
+.project{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.project__thumb {
+    position: relative;
+    z-index: 4;
+}
+.project__hover__info {
+    background: rgba(252, 194, 54, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.project__action {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 5;
+}
+.project__action h2 {
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 700;
+}
+.project__hover__info::before {
+    border: 1px solid #fff;
+    bottom: 50px;
+    content: "";
+    height: auto;
+    left: 45px;
+    position: absolute;
+    right: 45px;
+    top: 50px;
+    width: auto;
+    z-index: 2;
+}
+
+.project__action h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 17px;
+}
+.project__action > h2:hover a {
+    color: #000;
+}
+.project__action h2 a {
+    transition: all 0.4s ease 0s;
+}
+.project:hover .project__hover__info,
+.project__itm:hover .project__hover__info {
+    opacity: 1;
+}
+
+.project__thumb a {
+    display: block;
+}
+.project__thumb a img {
+    width: 100%;
+}
+.project__itm{
+    margin-top: 30px;
+}
+
+/*---------------------------------------
+  07. Call to Action Area
+----------------------------------------*/
+
+.callto__action__wrap {
+    align-items: center;
+    display: flex;
+    height: 175px;
+    justify-content: space-between;
+}
+.callto__action__wrap h2 {
+    color: #fffffe;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.htc__btn--transparent {
+    border: 1px solid #fff;
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 44px;
+    padding: 0 36px;
+    transition: all 0.5s ease 0s;
+}
+.htc__btn--transparent:hover {
+    background: #fcc236 none repeat scroll 0 0;
+    border: 1px solid #fcc236;
+    color: #fff;
+}
+.callto__action__wrap{
+    position: relative;
+    z-index: 1;
+}
+
+
+/*---------------------------------------
+  08. Team Area
+----------------------------------------*/
+
+.team__inner {
+    position: relative;
+}
+.team__hover__info {
+    background: rgba(252, 194, 54, 0.85) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px 0;
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: center bottom 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.team__social__link {
+    display: flex;
+    justify-content: center;
+}
+.team__social__link li a {
+    color: #000;
+}
+.team__social__link li {
+    margin: 0 13px;
+}
+.team__social__link li a i {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #fcc236;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 30px;
+}
+.team__social__link li a:hover i {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+}
+.team__details {
+    background: #1f2d30 none repeat scroll 0 0;
+    border-top: 1px solid #ffffff;
+    padding: 23px 0;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.team__details h2 a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.team__details h2 {
+  line-height: 14px;
+}
+.team__details h2 a:hover{
+    color: #000;
+}
+.team__details h4 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.team:hover .team__details {
+    background: #fcc236 none repeat scroll 0 0;
+}
+.team:hover .team__hover__info {
+    transform: scaleY(1);
+}
+.htc__team__container{
+    position: relative;
+    z-index: 2;
+}
+.team {
+    margin-top: 30px;
+}
+/*-------------------
+    Team 2
+--------------------*/
+
+
+.h1__team--one .team__social__link {
+    display: block;
+    margin-top: -15px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h1__team--one .team__social__link li {
+    margin: 15px 0;
+}
+.h1__team--one .team__hover__info {
+    bottom: auto;
+    height: 100%;
+    left: 0;
+    padding: 0;
+    top: 0;
+    transform: scaleX(0);
+    width: 85px;
+}
+.h1__team--one .team:hover .team__hover__info {
+    transform: scaleX(1);
+}
+
+/*---------------------------------------
+  09. Testimonial Area
+----------------------------------------*/
+
+
+.reguest__quote,
+.htc__testimonial__wrap{
+    position: relative;
+    z-index: 2;
+}
+.htc__testimonial__area .section__title p {
+    margin-bottom: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+    margin-top: 20px;
+    width: 100%;
+}
+.htc__testimonial__area .section__title{
+    margin-bottom: 47px;
+}
+.section__title.text-left {
+    margin-bottom: 47px;
+}
+.testimonial {
+    align-items: center;
+    display: flex !important;
+    position: relative;
+}
+.testimonial__thumb img {
+    width: 100%;
+}
+.testimonial__thumb {
+    margin-right: 40px;
+    min-width: 48%;
+}
+.testimonial__activation--2 .testimonial__thumb {
+      margin-right: 25px;
+      min-width: 37%;
+}
+.testimonial__activation--2 .testimonial__details p {
+      font-style: italic;
+      padding-right: 19px;
+}
+.testimonial__details h2 {
+    color: #303030;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.testimonial__details h4 {
+    color: #606060;
+    font-family: open sans;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.single__cl__form {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.single__cl__form input {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e1e1;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 15px;
+    padding: 0 20px;
+    width: 50%;
+    color: #606060;
+}
+.single__cl__form input::-moz-placeholder {
+    color: #606060 !important;
+}
+.single__cl__message textarea::-moz-placeholder {
+    color: #606060 !important;
+    opacity: 1;
+}
+.clint__submit__btn a {
+    padding: 0 17px;
+}
+.single__cl__message textarea {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 22px;
+    min-height: 155px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.htc__testimonial__wrap .slick-dots {
+    bottom: 1px;
+    right: -57px;
+}
+.htc__testimonial__wrap .slick-dots li.slick-active button::before,
+.htc__testimonial__wrap .slick-dots li button:hover::before {
+    background: #fcc236 none repeat scroll 0 0;
+    opacity: 1;
+}
+
+.htc__testimonial__wrap .slick-dots li button::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 10px;
+    opacity: 1;
+    width: 10px;
+    transition: 0.4s;
+}
+.htc__testimonial__wrap .slick-dots li {
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+}
+.htc__testimonial__wrap .slick-dots li + li {
+    margin-left: 10px;
+}
+.tes__icon i {
+    color: #c7c0c0;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+/*----------------------------
+    Testimonial 2
+-----------------------------*/
+
+.htc__testimonial__area.testimonial__2 .section__title p {
+    margin: 0;
+}
+.htc__testimonial__left h2.title__line {
+    color: #1f2d30;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.htc__testimonial__left p + p {
+    margin-top: 15px;
+}
+.testimonial__2 .htc__testimonial__wrap .slick-dots {
+    bottom: -40px;
+    left: -99%;
+    right: auto;
+}
+.testimonial__2 .htc__testimonial__left p {
+  padding-right: 14px;
+}
+.testimonial__2 .testimonial__details h2 {
+  margin-top: 17px;
+}
+
+/*---------------------------------------
+  11. Brand Area
+----------------------------------------*/
+
+
+.brand__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand__list li a {
+    display: block;
+}
+.htc__brand__area {
+    padding-bottom: 125px;
+    padding-top: 126px;
+}
+
+/*---------------------------------------
+  13. Counterup Area
+----------------------------------------*/
+
+.htc__counterup__wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fact__count span.count {
+    color: #1f2d30;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fact__title h2 {
+    color: #1f2d30;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+.h1__countdown .htc__callto__action h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.h1__countdown .htc__callto__action {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.h1__countdown .htc__call__btn {
+    margin-top: 36px;
+}
+.h1__countdown .htc__callto__action p {
+    width: 65%;
+}
+.h1__countdown .htc__counterup__wrap {
+    height: 145px;
+    padding: 0 157px;
+}
+.counterup__left__thumb {
+    margin-left: -15px;
+    margin-right: 40px;
+}
+
+/*---------------------------------------
+  15. Bradcaump Area
+----------------------------------------*/
+
+
+.ht__bradcaump__wrap {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+.bradcaump__inner h2.bradcaump-title {
+    color: #fdfdfd;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.bradcaump-inner span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bradcaump-inner a {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bradcaump-inner {
+    margin-top: 6px;
+}
+.brd-separetor {
+    padding: 0 7px;
+}
+.htc__bst__btn .htc__btn {
+    padding: 0 36px;
+}
+
+/*---------------------------------------
+  16. Our Mission Area
+----------------------------------------*/
+
+.htc__mission__area {
+    position: relative;
+}
+.htc__offer__thumb {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.htc__mission__container {
+    padding: 89px 0;
+}
+.htc__mission__container .single__mission + .single__mission {
+    margin-top: 50px;
+}
+.single__mission h2 {
+    color: #1f2d30;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.single__mission p {
+    padding-right: 33px;
+}
+
+
+
+
+/*---------------------------------------
+  17. Project Area
+----------------------------------------*/
+
+.project--one{
+    margin-top: -20px;
+}
+
+.project--one .project {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 20px;
+}
+
+/*-------------------------------
+    Mobile Menu
+------------------------------*/
+
+.mean-container .mean-bar {
+  min-height: 0;
+  padding: 0;
+}
+.mean-container a.meanmenu-reveal {
+  margin-top: -88px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
